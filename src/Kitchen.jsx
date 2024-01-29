@@ -8,7 +8,7 @@ const Kitchen = (props) => {
       <Oven/>
       <Sink/>
     </div>
-   );
+  );
 }
- 
+
 export default Kitchen;

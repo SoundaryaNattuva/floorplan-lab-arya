@@ -1,6 +1,7 @@
 import Bedroom from './Bedroom'
 import Kitchen from './Kitchen';
 import Bath from './Bath';
+import LivingRoom from './LivingRoom';
 
 const FloorPlan = (props) => {
   return ( 
@@ -8,12 +9,13 @@ const FloorPlan = (props) => {
       <h1>Floor Plan</h1>
       <Bedroom bedRoomNum={1}/>
       <Kitchen />
-      <Bath />
+      <Bath size="Half" />
       <Bedroom bedRoomNum={2}/>
-      <Bath />
+      <LivingRoom />
+      <Bath size="Full"/>
       <Bedroom bedRoomNum={3}/>
     </div>
-   );
+  );
 }
- 
+
 export default FloorPlan;

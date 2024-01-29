@@ -10,4 +10,23 @@ div {
   border: 1px solid grey;
   margin: 5px;
   padding: 5px;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+div div{
+  width: 650px;
+}
+
+div div div{
+  width: 600px;
+}
+
+div div div div{
+  width: 550px;
+}
+
+div div div div div{
+  width: 500px;
 }
